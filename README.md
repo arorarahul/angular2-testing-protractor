@@ -8,9 +8,6 @@ Migrate to project folder
 1. `npm install`
 2. `npm install -g protractor`
 3. `npm install typings --global`
-
-<enter>
-
 4. `npm start` will launch an instance of application in the browser
 5. `npm run pretest` will launch an instance where the end to end test will run
 6. `protractor run protractor.config.js` will run the test
@@ -19,7 +16,8 @@ Migrate to project folder
 
 # Explanation - protractor.config.js
 
-```exports.config = {
+```javascript
+  exports.config = {
   directConnect: true,
 
   //This tells Protractor to directly connect to the webdriver (instead of connecting to a local selenium server)
