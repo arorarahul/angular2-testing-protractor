@@ -43,7 +43,7 @@ Migrate to project folder
   baseUrl: 'http://localhost:8080',
   //this is the url on which the test will run
 
-  // For angular tests
+  // This is an important flag to make protractor know that you are running an angular 2 application
   useAllAngular2AppRoots: true
   
 };
