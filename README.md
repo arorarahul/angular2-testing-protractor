@@ -5,12 +5,14 @@
 Migrate to project folder
 <enter>
 
-1. `npm install`
-2. `npm install -g protractor`
-3. `npm install typings --global`
-4. `npm start` will launch an instance of application in the browser
-5. `npm run pretest` will launch an instance where the end to end test will run
-6. `protractor run protractor.config.js` will run the test
+1. `npm install` - will install everything in package.json
+2. `npm install -g protractor` - will install protractor globally on your machine
+3. `webdriver-manager update` - will update the webdriver used to drive the end to end test
+4. `npm install typings --global`- used to convert test cases written in typescript to javascript
+5. `typings install`
+6. `npm start` - will launch an instance of application in the browser
+7. `npm run pretest`- will launch an instance where the end to end test will run
+8. `protractor run protractor.config.js` will run the test
 
 <enter>
 
@@ -48,4 +50,3 @@ Migrate to project folder
   
 };
 ```
-
